@@ -16,3 +16,7 @@ def test_greeting():
 
 def test_zero():
     assert add_numbers(0, 0) == 0
+
+def test_large_numbers():
+    assert add_numbers(100, 200) == 300
+
