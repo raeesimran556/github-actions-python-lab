@@ -12,3 +12,7 @@ def test_negative_numbers():
 
 def test_greeting():
     assert greet("Student") == "Hello, Student!"
+
+
+def test_zero():
+    assert add_numbers(0, 0) == 0
